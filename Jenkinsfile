@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Pravesh-M/Jenkins-Mvn.git'
+                git branch: 'main', uri: 'https://github.com/Pravesh-M/Jenkins-Mvn.git'
             }
         }
 
