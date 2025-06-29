@@ -4,7 +4,6 @@ pipeline {
     environment {
         IMAGE_NAME = 'praveshm007/simpleproject'
         IMAGE_TAG = 'latest'
-        credentials('docker')
     }
 
     stages {
