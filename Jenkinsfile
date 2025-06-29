@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'praveshm007/simpleproject'
-        IMAGE_TAG = 'latest
+        IMAGE_TAG = 'latest'
     }
 
     stages {
